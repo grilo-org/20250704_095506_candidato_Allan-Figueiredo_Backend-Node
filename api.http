@@ -1,0 +1,28 @@
+
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+    "name": "Allan Figueiredo 3",
+    "email": "allan3.figueiredo100@gmail.com",
+    "referrer":"8fa02dd1-4616-476d-9a0a-c45d8f941015"
+}
+
+###
+
+GET http://localhost:3333/invites/8fa02dd1-4616-476d-9a0a-c45d8f941015
+
+###
+
+GET http://localhost:3333/subscribers/8fa02dd1-4616-476d-9a0a-c45d8f941015/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/8fa02dd1-4616-476d-9a0a-c45d8f941015/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/8fa02dd1-4616-476d-9a0a-c45d8f941015/ranking/position
+
+###
+GET http://localhost:3333/ranking
